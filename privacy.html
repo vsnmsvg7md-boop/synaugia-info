@@ -1,74 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy — SYNAUGIA</title>
-<style>
-  body {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Courier New", monospace;
-    max-width: 800px;
-    margin: auto;
-    padding: 40px;
-    line-height: 1.6;
-    background: #f5f5f5;
-    color: #222;
-  }
+# Privacy Policy — SYNAUGIA
 
-  h1, h2 {
-    font-weight: normal;
-  }
-</style>
-</head>
-<body>
+**Last Updated:** May 15, 2026  
+**Status:** FIREBASE_FIRESTORE_COMPLIANT  
+**Contact:** [smb.synaugia@gmail.com](mailto:smb.synaugia@gmail.com)
 
-    <h1>Privacy Policy — SYNAUGIA</h1>
-    <p class="last-updated">Last updated: April 26, 2026</p>
+---
 
-    <p>SYNAUGIA (“the App”) is an intelligent harmony and improvisation tool designed for musicians. This Privacy Policy explains how information is handled when you use the App.</p>
+SYNAUGIA ("the App") is an advanced musical analysis engine. This document outlines the protocols for data handling following the integration of cloud-based authentication and storage systems.
 
-    <h2>1. Data Collection</h2>
-    <p>SYNAUGIA does <strong>not require account creation</strong> and does not intentionally collect personally identifiable information such as name, email address, or location. However, the App processes <strong>user input data</strong> (such as chords, musical sequences, or queries) in order to generate harmonic analysis and suggestions.</p>
+## 01_DATA_COLLECTION
+To facilitate persistent user sessions and cross-device synchronization, the following data points are processed:
 
-    <h2>2. Use of AI Services</h2>
-    <p>To provide its core functionality, SYNAUGIA sends user input to an external AI service via a secure proxy server.</p>
-    <ul>
-        <li>The input data is used <strong>only to generate responses</strong>.</li>
-        <li>No user profiles are created.</li>
-        <li>No personal tracking is performed.</li>
-    </ul>
+* **[AUTH_DATA]** : Email address and display name via Firebase Authentication.
+* **[USER_DATA]** : Musical sequences, chord progressions, and theoretical analyses stored in Google Cloud Firestore.
+* **[META_DATA]** : Device identifiers and IP addresses collected by Firebase for security auditing and rate limiting.
 
-    <h2>3. Data Storage</h2>
-    <p>SYNAUGIA does <strong>not store user inputs or generated results</strong> on its servers.</p>
-    <ul>
-        <li>No database of user activity is maintained.</li>
-        <li>No long-term storage of musical queries.</li>
-    </ul>
+## 02_PROCESSING_NODES
+Data is routed through the following infrastructures:
 
-    <h2>4. Analytics and Tracking</h2>
-    <p>SYNAUGIA does <strong>not use third-party analytics tools</strong>, advertising trackers, or cookies.</p>
+* **[FIREBASE]** : Primary data controller for authentication and database management.
+* **[AI_SERVICES]** : Musical inputs are transmitted via secure protocols to specialized AI models for harmonic processing. No persistent identity is linked during these API calls.
 
-    <h2>5. Security</h2>
-    <p>All communication between the App and external services is performed via secure connections (HTTPS). An intermediary proxy server is used to protect API credentials and prevent unauthorized access.</p>
+## 03_RETENTION_&_DELETION
+In compliance with Apple App Store requirements and global privacy laws:
 
-    <h2>6. Contact</h2>
-    <p>If you have any questions regarding this Privacy Policy, you may contact us at:</p>
-    <p> <br>
-    Email: <a href="mailto:smb.synaugia@gmail.com">smb.synaugia@gmail.com</a></p>
+* Users maintain full access to modify their profile information within the App.
+* **[PURGE_PROTOCOL]** : Account deletion requests via the App settings trigger a permanent wipe of associated Firestore documents and Auth records within 30 days.
 
-    <div class="summary">
-        <h2>Summary</h2>
-        <ul>
-            <li>No accounts</li>
-            <li>No personal data collection</li>
-            <li>No tracking</li>
-            <li>No data storage</li>
-        </ul>
-    </div>
+## 04_JURISDICTION
+Operations are governed by the laws of France. International data transfers to Google Cloud servers are secured under standard contractual clauses.
 
-    <footer>
-        &copy; 2026 SYNAUGIA. All rights reserved.
-    </footer>
-
-</body>
-</html>
+---
+*END_OF_DOCUMENT*
