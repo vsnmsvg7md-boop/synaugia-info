@@ -2,28 +2,74 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>SYNAUGIA Legal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SYNAUGIA // Legal</title>
   <style>
     body {
-      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Courier New", monospace;
       text-align: center;
-      padding: 60px;
+      padding: 100px 20px;
       background: #f5f5f5;
+      color: #222;
+      margin: 0;
     }
+
+    h1 {
+      font-weight: normal;
+      letter-spacing: 2px;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+    }
+
+    .subtitle {
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 50px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .link-container {
+      max-width: 400px;
+      margin: auto;
+    }
+
     a {
       display: block;
-      margin: 20px;
-      font-size: 18px;
-      color: #2f4f4f;
+      margin: 15px 0;
+      padding: 15px;
+      font-size: 14px;
+      color: #222;
       text-decoration: none;
+      border: 1px solid #ddd;
+      background: #fff;
+      transition: all 0.2s ease;
+    }
+
+    a:hover {
+      background: #000;
+      color: #fff;
+      border-color: #000;
+    }
+
+    .footer-note {
+      margin-top: 60px;
+      font-size: 10px;
+      color: #999;
     }
   </style>
 </head>
 <body>
-  <h1>SYNAUGIA</h1>
-  <p>Legal Information</p>
 
-  <a href="privacy.html">Privacy Policy</a>
-  <a href="terms.html">Terms of Service</a>
+  <h1>SYNAUGIA</h1>
+  <p class="subtitle">Legal Documentation // Index</p>
+
+  <div class="link-container">
+    <a href="privacy.html">01_PRIVACY_POLICY</a>
+    <a href="terms.html">02_TERMS_OF_SERVICE</a>
+  </div>
+
+  <p class="footer-note">© 2026 SYNAUGIA. All rights reserved.</p>
+
 </body>
 </html>
