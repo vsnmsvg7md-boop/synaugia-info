@@ -1,34 +1,56 @@
-# Privacy Policy — SYNAUGIA
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — SYNAUGIA</title>
+<style>
+  body {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Courier New", monospace;
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    line-height: 1.6;
+    background: #f5f5f5;
+    color: #222;
+  }
+  h1, h2 { font-weight: normal; text-transform: uppercase; border-bottom: 1px solid #ccc; padding-bottom: 10px; }
+  .box { border: 1px solid #ddd; padding: 20px; background: #fff; margin-bottom: 20px; }
+  a { color: #444; }
+</style>
+</head>
+<body>
 
-**Last Updated:** May 15, 2026  
-**Status:** FIREBASE_FIRESTORE_COMPLIANT  
-**Contact:** [smb.synaugia@gmail.com](mailto:smb.synaugia@gmail.com)
+<h1>Privacy Policy — SYNAUGIA</h1>
+<p><strong>Last Updated:</strong> May 15, 2026</p>
 
----
+<div class="box">
+<p>SYNAUGIA ("the App") is an intelligent harmony tool for musicians. This policy explains our data protocols following the integration of cloud-based authentication and storage systems.</p>
+</div>
 
-SYNAUGIA ("the App") is an advanced musical analysis engine. This document outlines the protocols for data handling following the integration of cloud-based authentication and storage systems.
+<h2>1. Data Collection</h2>
+<p>To facilitate persistent user sessions and cross-device synchronization, we process:</p>
+<ul>
+  <li><strong>[AUTH_DATA]</strong>: Email address and display name via Firebase Authentication.</li>
+  <li><strong>[USER_DATA]</strong>: Musical sequences and theoretical analyses stored in Google Cloud Firestore.</li>
+  <li><strong>[META_DATA]</strong>: Device identifiers collected by Firebase for security auditing.</li>
+</ul>
 
-## 01_DATA_COLLECTION
-To facilitate persistent user sessions and cross-device synchronization, the following data points are processed:
+<h2>2. Processing & Security</h2>
+<p>Data is routed through secure protocols (HTTPS). Musical inputs are transmitted to specialized AI models via an intermediary proxy server to protect API integrity. No persistent user identity is linked during these external API calls.</p>
 
-* **[AUTH_DATA]** : Email address and display name via Firebase Authentication.
-* **[USER_DATA]** : Musical sequences, chord progressions, and theoretical analyses stored in Google Cloud Firestore.
-* **[META_DATA]** : Device identifiers and IP addresses collected by Firebase for security auditing and rate limiting.
+<h2>3. Retention & Deletion</h2>
+<p>In compliance with international privacy standards and App Store guidelines:</p>
+<ul>
+  <li>Users maintain full access to modify their profile metadata (display name) within the App.</li>
+  <li><strong>Account Deletion:</strong> Users may trigger a permanent wipe of their account and all associated Firestore records via the settings menu. Deletion is processed within 30 days.</li>
+</ul>
 
-## 02_PROCESSING_NODES
-Data is routed through the following infrastructures:
+<h2>4. Jurisdiction</h2>
+<p>Operations are governed by the laws of France. International data transfers are secured under standard contractual clauses.</p>
 
-* **[FIREBASE]** : Primary data controller for authentication and database management.
-* **[AI_SERVICES]** : Musical inputs are transmitted via secure protocols to specialized AI models for harmonic processing. No persistent identity is linked during these API calls.
+<h2>5. Contact</h2>
+<p>Email: <a href="mailto:smb.synaugia@gmail.com">smb.synaugia@gmail.com</a></p>
 
-## 03_RETENTION_&_DELETION
-In compliance with Apple App Store requirements and global privacy laws:
-
-* Users maintain full access to modify their profile information within the App.
-* **[PURGE_PROTOCOL]** : Account deletion requests via the App settings trigger a permanent wipe of associated Firestore documents and Auth records within 30 days.
-
-## 04_JURISDICTION
-Operations are governed by the laws of France. International data transfers to Google Cloud servers are secured under standard contractual clauses.
-
----
-*END_OF_DOCUMENT*
+</body>
+</html>
