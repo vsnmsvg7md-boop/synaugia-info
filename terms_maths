@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conditions Générales d'Utilisation — SYNAUGIA MATHS</title>
+<style>
+  body {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Courier New", monospace;
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    line-height: 1.6;
+    background: #f5f5f5;
+    color: #222;
+  }
+  h1, h2 { font-weight: normal; text-transform: uppercase; border-bottom: 1px solid #ccc; padding-bottom: 10px; }
+  .warning { border-left: 4px solid #000; padding: 20px; background: #fff; margin-bottom: 20px; font-style: italic; }
+  a { color: #444; }
+</style>
+</head>
+<body>
+
+<h1>Conditions Générales d'Utilisation — SYNAUGIA MATHS</h1>
+<p><strong>Dernière mise à jour :</strong> 21 juin 2026</p>
+
+<p>En naviguant sur ce site ou en utilisant SYNAUGIA MATHS, vous acceptez sans réserve les présentes conditions. Veuillez les lire attentivement.</p>
+
+<h2>1. Intégrité des Comptes et Accès</h2>
+<p>L'accès aux fonctionnalités avancées et au suivi de progression nécessite un compte vérifié. Les utilisateurs sont responsables de la confidentialité de leurs identifiants. L'éditeur ne pourra être tenu responsable de tout accès non autorisé résultant d'une négligence de l'utilisateur. L'inscription à la liste d'attente pour l'accès anticipé ne garantit pas une ouverture immédiate des droits d'accès.</p>
+
+<h2>2. Fonctionnement de l'IA & Avertissement Pédagogique</h2>
+<div class="warning">
+  Synaugia Maths repose sur un moteur d'IA socratique conçu pour guider l'élève par le questionnement (maïeutique) et a pour consigne stricte de ne jamais donner la solution brute. Les interactions, analyses et pistes de réflexion sont générées de manière automatisée. Bien que le système soit optimisé pour la rigueur des programmes du collège, les réponses de l'IA ont un but purement éducatif et d'accompagnement. L'élève reste acteur et responsable de ses productions scolaires.
+</div>
+
+<h2>3. Propriété Intellectuelle</h2>
+<p><strong>Le Système :</strong> Le code source, l'interface graphique (UI), les algorithmes de maïeutique, les visuels et les marques associées sont la propriété exclusive de l'éditeur. Toute reproduction, modification ou rétro-ingénierie est strictement interdite.</p>
+<p><strong>Contenu Utilisateur :</strong> Vous conservez l'entière propriété des énoncés, exercices et images que vous soumettez. Vous nous accordez une licence limitée et temporaire pour traiter ces données via nos serveurs et modèles d'IA tiers, dans l'unique but de fournir le service d'accompagnement.</p>
+
+<h2>4. Services Payants & Abonnements</h2>
+<p>L'accès complet aux fonctionnalités du tuteur individuel Synaugia Maths requiert une licence payante, disponible sous forme d'achat unique ou d'abonnement. Toutes les transactions, la facturation et la gestion des renouvellements automatiques sont opérées de manière sécurisée via les systèmes d'achats intégrés d'Apple (App Store) et/ou de Google (Play Store).</p>
+<ul>
+  <li><strong>Abonnements :</strong> Sauf désactivation de votre part dans les réglages de votre compte de plateforme 24 heures avant la fin de la période en cours, l'abonnement est reconduit automatiquement.</li>
+  <li><strong>Remboursements :</strong> Toute demande de rétractation ou de remboursement doit être soumise directement auprès de la plateforme d'applications concernée (Apple/Google), selon leurs conditions en vigueur.</li>
+</ul>
+
+<h2>5. Droit Applicable et Juridiction</h2>
+<p>Les présentes conditions sont régies et interprétées selon le droit français. Tout litige relatif à l'utilisation du service sera soumis à la compétence exclusive des tribunaux français.</p>
+
+<h2>6. Contact</h2>
+<p>Pour toute question relative à ces conditions : <a href="mailto:contact@synaugia.com">contact@synaugia.com</a></p>
+
+</body>
+</html>
